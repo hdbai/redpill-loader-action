@@ -35,5 +35,7 @@ sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8125/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/rtl8150/rpext-index.json
+./ext-manager.sh add https://github.com/jumkey/redpill-load/raw/develop/redpill-virtio/rpext-index.json
+./ext-manager.sh add https://github.com/jumkey/redpill-load/raw/develop/redpill-boot-wait/rpext-index.json
 mv images/redpill-DS918+_7.0.1-4221*.img ${root}/output/
 cd ${root}
