@@ -9,7 +9,7 @@ mkdir output
 cd ds918-7.0.1
 
 # download redpill
-git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
+git clone  -b master --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
 git clone -b develop --depth=1 https://github.com/jumkey/redpill-load.git
 
 # download syno toolkit
@@ -34,11 +34,11 @@ cp ${root}/user_config.DS918+.json ./user_config.json
 #./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/e1000e/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/igb/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/ixgbe/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json
+#./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json
 #https://xpenology.com/forum/profile/58145-thorgroup/content/?type=forums_topic_post&change_section=1
-#./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt3sas/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8125/rpext-index.json
-#./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/rtl8150/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/rtl8150/rpext-index.json
 ##virtio和mpt2sas兼容问题导致无限循环重装
 ./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-virtio/rpext-index.json
 #./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-boot-wait/rpext-index.json
