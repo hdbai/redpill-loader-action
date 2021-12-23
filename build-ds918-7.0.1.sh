@@ -35,9 +35,9 @@ cp ${root}/user_config.DS918+.json ./user_config.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/ixgbe/rpext-index.json
 ##https://xpenology.com/forum/profile/58145-thorgroup/content/?type=forums_topic_post&change_section=1
 ##mpt3sas驱动最新版有问题 https://github.com/pocopico/4.4.180plus-modules/issues/1 改为10月19日版本
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/56ec2571ddd5167fc1e9d34ce508924dbe8f8f32/mpt3sas/rpext-index.json
+##./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/56ec2571ddd5167fc1e9d34ce508924dbe8f8f32/mpt3sas/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/r8125/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/rtl8150/rpext-index.json
+##./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/rtl8150/rpext-index.json
 ##virtio和mpt2sas兼容问题导致无限循环重装
 ./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-virtio/rpext-index.json
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
