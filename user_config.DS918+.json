@@ -10,4 +10,8 @@
     "supportsystempwarning": "no"
   },
   "ramdisk_copy": {}
+  ,
+  "extensions": [
+    "thethorgroup.virtio"
+  ]
 }
