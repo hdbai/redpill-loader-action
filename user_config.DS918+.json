@@ -12,6 +12,6 @@
   "ramdisk_copy": {}
   ,
   "extensions": [
-    "thethorgroup.virtio"
+    "thethorgroup.jg.virtio"
   ]
 }
