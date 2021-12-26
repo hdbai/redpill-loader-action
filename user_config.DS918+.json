@@ -10,4 +10,11 @@
     "supportsystempwarning": "no"
   },
   "ramdisk_copy": {}
+  ,
+  "extensions": [
+    "thethorgroup.virtio",
+    "pocopico.r8125",
+    "jumkey.acpid2",
+    "pocopico.mpt2sas"
+  ]
 }
