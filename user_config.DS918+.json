@@ -10,10 +10,4 @@
     "supportsystempwarning": "no"
   },
   "ramdisk_copy": {}
-  ,
-  "extensions": [
-    "pocopico.e1000",
-    "pocopico.e1000e",
-    "pocopico.mpt2sas"
-  ]
 }
