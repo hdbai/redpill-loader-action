@@ -10,7 +10,7 @@ cd ds918-7.0.1
 
 # download redpill
 git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
-git clone -b develop --depth=1 https://github.com/jimmyGALLAND/redpill-load.git
+git clone -b develop --depth=1 https://github.com/jumkey/redpill-load.git
 
 # download syno toolkit
 curl --location "https://sourceforge.net/projects/dsgpl/files/toolkit/DSM7.0/ds.apollolake-7.0.dev.txz/download" --output ds.apollolake-7.0.dev.txz
@@ -28,8 +28,8 @@ cd ..
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
 
-./ext-manager.sh add https://raw.githubusercontent.com/jimmyGALLAND/redpill-ext/master/acpid/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/jimmyGALLAND/redpill-ext/master/virtio/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-virtio/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/vmxnet3/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/e1000e/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/igb/rpext-index.json
