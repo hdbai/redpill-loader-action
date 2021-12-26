@@ -14,8 +14,6 @@
   "extensions": [
     "pocopico.e1000",
     "pocopico.e1000e",
-    "pocopico.r8125",
-    "jumkey.acpid2",
     "pocopico.mpt2sas"
   ]
 }
